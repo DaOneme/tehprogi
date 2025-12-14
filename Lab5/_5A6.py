@@ -38,8 +38,3 @@ def main(*args):
         
     print(result)
     return result
-
-    # return(result)
-        
-
-        

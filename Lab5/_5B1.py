@@ -37,13 +37,3 @@ def main(*args):
     
     print(result)
     return result
-            
-# def main(*args):
-#     result = []
-    
-#     for arg in args:
-#         books = [random.randint(10,50) for i in range(arg)]
-
-#         result.append(minimum_shelves(books)[1])
-#     print(result)
-#     return result
