@@ -12,14 +12,5 @@ while True:
         break
     n += 100
     
-while True:
-    res_a = A.main(n)
-    res_b = B.main(n)
-    if res_a < res_b:
-        print(n)
-        break
-    
-    n+= 1
-    
     
     
