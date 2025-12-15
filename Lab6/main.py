@@ -45,8 +45,6 @@ class Polygon:
             dist = self.segment_dist(x0, y0, x1, y1, x2, y2)
             
                      
-            # if abs(x0 - x1) < eps and abs(y0 - y1) < eps:
-            #     return "0"
             if dist < eps:
                 return "0"
 
